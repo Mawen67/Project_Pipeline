@@ -1,12 +1,12 @@
 # Project_Pipeline
 
-### Prerequisite
+This *R* pipeline is a shiny app which can forecast some points of a dataset made of solar measurements.
 
-Before running this pipeline, be sure to have installed the following package: https://github.com/Mawen67/mySolarPackage.
+### Notes
 
-You can install it with the following line (in R): 
+- This pipeline will use some libraries from CRAN, and one additional library from the following Github repository: https://github.com/Mawen67/mySolarPackage.
 
-*devtools::install_github("Mawen67/mySolarPackage", ref = "748e27952e4b4ec7ef1992e3325999ec91517037")*
+- The plots can take several seconds to appear. The forecast result is not efficient and is just here as a support.
 
 ### Running the pipeline
 
@@ -14,8 +14,10 @@ You can install it with the following line (in R):
 
 *git clone git@github.com:Mawen67/Project_Pipeline.git*
 
-2. Open the project in R
+3. Install all the required libraries from the renv
 
-3. Run the Shiny App in R
+*renv::restore()*
+
+4. Run the Shiny App in R
 
 *shiny::runApp(".")*
