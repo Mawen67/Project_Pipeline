@@ -16,6 +16,6 @@ You can install it with the following line (in R):
 
 2. Open the project in R
 
-3. Run the Shiny App
+3. Run the Shiny App in R
 
 *shiny::runApp(".")*
