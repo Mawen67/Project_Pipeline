@@ -14,6 +14,6 @@ server <- function(session, input, output) {
 
   
   output$solar_plot <- renderPlot({
-    mySolarPackage::predict_solar(SolarEnergy, variable_selected()) + labs(title = plot_title())
+    mySolarPackage::predict_solar(SolarEnergy, variable_selected(), nbr_forecast_selected()) + labs(title = plot_title())
   })
 }

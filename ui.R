@@ -14,7 +14,7 @@ ui <- function(request){
         helpText("Select the type of data you want to forecast"),
         hr(),
         sliderInput("nbr_selected", "Select number:",
-                    min = 0, max = 2000,
+                    min = 100, max = 2000,
                     value = 1000, step = 100),
         hr(),
         helpText("Select the number of points to forecast"),
