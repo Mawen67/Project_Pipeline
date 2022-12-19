@@ -12,12 +12,18 @@ This *R* pipeline is a shiny app which can forecast some points of a dataset mad
 
 1. Clone this repository
 
-*git clone git@github.com:Mawen67/Project_Pipeline.git*
+```
+git clone git@github.com:Mawen67/Project_Pipeline.git
+```
 
-3. Install all the required libraries from the renv
+2. Install all the required libraries from the renv
 
-*renv::restore()*
+```
+renv::restore()
+```
 
-4. Run the Shiny App in R
+3. Run the Shiny App in R
 
-*shiny::runApp(".")*
+```
+shiny::runApp(".")
+```
