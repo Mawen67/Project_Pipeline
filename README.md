@@ -16,13 +16,19 @@ This *R* pipeline is a shiny app which can forecast some points of a dataset mad
 git clone git@github.com:Mawen67/Project_Pipeline.git
 ```
 
-2. Install all the required libraries from the renv
+2. Open a console in Rstudio OR run the following command in your terminal
+
+```
+r
+```
+
+3. Install all the required libraries from the renv
 
 ```
 renv::restore()
 ```
 
-3. Run the Shiny App in R
+4. Run the Shiny App in R
 
 ```
 shiny::runApp(".")
